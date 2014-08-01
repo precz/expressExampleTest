@@ -4,6 +4,7 @@
   var 
     express = require('express'),
     app = express(),
+    userRoute = require('./routes/user').register(app),
     server;
 
   app.get('/', function(req, res){
