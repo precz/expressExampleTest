@@ -2,13 +2,11 @@
   'use strict';
 
   var 
-    express = require('express'),
-    app = express(),
+    app = require('express')(),
+    router = require('./router'),
     server;
 
-  app.get('/', function(req, res){
-    res.send('This is my backend sever!');
-  });
+  router.register(app);
 
   exports.listen = function () {
     server = app.listen.apply(app, arguments);

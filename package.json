@@ -4,10 +4,13 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "express": "4.x",
+    "express": "4.x"
+  },
+  "devDependencies": {
+    "chai": "^1.9.2",
     "grunt": "^0.4.5",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-mocha-test": "^0.11.0",
-    "mocha": "^1.21.3"
+    "sinon": "^1.11.1"
   }
 }

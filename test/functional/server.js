@@ -6,7 +6,7 @@
     assert = require('assert'),
     http = require('http');
 
-  describe('server', function () {
+  describe('functional/server', function () {
     before(function () {
       server.listen(8000);
     });
